@@ -1,0 +1,20 @@
+{
+  "name": "mmamedov/foodora-test",
+  "description": "Foodora test",
+  "authors": [
+    {
+      "name": "Muhammed Mamedov",
+      "email": "mm@turkmenweb.net",
+      "homepage": "http://www.turkmenweb.com/en/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Foodora\\": "src/"
+    }
+  }
+}
